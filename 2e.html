@@ -24,6 +24,7 @@ body {font-family: Arial;}
   transition: 0.3s;
   width:100px;
   font-size: 17px;
+  margin-left:200px;
 }
 
 /* Change background color of buttons on hover */
@@ -49,28 +50,35 @@ body {font-family: Arial;}
 </head>
 <body>
 
-<h2>Tabs</h2>
-<p>Click on the buttons inside the tabbed menu:</p>
+<h1>Tabs</h1>
+<h2>Tabbed menu:</h2>
 
 <div class="tab">
-  <button style="border: solid black; display: flex; justify-content:space-between;" class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button style="border: solid black; display: flex; justify-content:space-between;" class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button style="border: solid black; display: flex; justify-content:space-between;" class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button style="border: solid black; display: flex; justify-content:space-between;" class="tablinks" onclick="openCity(event, 'Sun')">Sun</button>
+  <button style="border: solid black; display: flex; justify-content:space-between;" class="tablinks" onclick="openCity(event, 'Moon')">Moon</button>
+  <button style="border: solid black; display: flex; justify-content:space-between;" class="tablinks" onclick="openCity(event, 'Earth')">Earth</button>
+  <button style="border: solid black; display: flex; justify-content:space-between;" class="tablinks" onclick="openCity(event, 'Mars')">Mars</button>
+
 </div>
 
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<div id="Sun" class="tabcontent">
+  <h3>SUN</h3>
+  <p>Energy provider</p>
 </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p> 
+<div id="Moon" class="tabcontent">
+  <h3>Moon</h3>
+  <p>Night light</p> 
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="Earth" class="tabcontent">
+  <h3>Earth</h3>
+  <p>Home</p>
+</div>
+
+<div id="Mars" class="tabcontent">
+  <h3>Mars</h3>
+  <p>Alien planet</p>
 </div>
 
 <script>
