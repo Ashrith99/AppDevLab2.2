@@ -1,0 +1,18 @@
+body{
+    font-size: 12px;    
+}
+h1{
+    font-size: 1.2em;
+    border: solid black;
+    border-width: thick;
+    background-color: pink;
+    padding: 1em;
+}
+p{
+    color: white;
+    background-color: gray;
+    font-size: 0.9em;
+    border: solid black;
+    border-width: thin;
+    padding: 1em;
+}

@@ -1,0 +1,15 @@
+/* unvisited link */
+a:link {
+    color: blue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+  
+  
+  /* selected link */
+  a:active {
+    color: red;
+  } 
